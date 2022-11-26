@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <h1>NETFLIX</h1>
+        </header>
+        <main class="main">
+        <div class="formCTN">
+            <form class="signInForm">
+                <h4>Sign In</h4>
+                <label class="emailLbl" for="email">Enter your Email/Username</label>
+                <input class="email" name="email" type="text" />
+                <label class="pwdLbl" id="pwdLbl" for="pwd">Enter your Password</label>
+                <button class="showBtn">Show</button>
+                <input class="password" name="pwd" data-active="false" id="pwd"  type="text"/>
+                <button class="signInBTN">Sign in</button>
+                <div class="formFooter">
+                    <div class="remCTN">
+                        <input type="checkbox" name="rem" class="rem" />
+                        <label for="rem" class="remMe">Remember me</label>
+                    </div>
+                    <div class="helpCTN">
+                        <p class="helpTxt"><a class="helpLink" href="/">Need help?</a></p>
+                    </div>
+                   
+                </div>
+                <div class="advert">
+                    <p id="signUpText"class="signUpText">New to Netflix? Sign up now.</p>
+                     <p class="captChaText">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="/"><b>Learn more.</b></a></p>
+                 </div>
+            </form>
+            <div>
+            </main>
+            </div>
+            <script src="./index.js">
+            </script>
+</body>
+
+</html>
